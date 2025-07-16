@@ -1,6 +1,6 @@
 
         // LIFF App ID
-        const LIFF_ID = "2006455439-rKe2Go41";
+        const LIFF_ID = "2006455439-DV2we9PA";
 
         // State Management
         const state = {
