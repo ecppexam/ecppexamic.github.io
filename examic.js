@@ -369,7 +369,7 @@
             fetch(url)
                 .then(response => response.json())
                 .then(data => {
-                    state.questions = getRandomQuestions(data, 10);
+                    state.questions = getRandomQuestions(data, 50);
                     state.lesson = subjectId;
                     document.getElementById('paginationContainer').classList.add('hidden');
                     document.getElementById('loadingScreen').classList.add('hidden');
